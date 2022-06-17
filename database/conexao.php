@@ -6,6 +6,7 @@ class Connection {
     private static $conn;
 
     public function connect(){
+        echo(' a.0 ');
 
         // // Le os parametros do banco do dados -> database.ini
         // $params = parse_ini_file('database.ini');
