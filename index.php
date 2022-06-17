@@ -1,5 +1,5 @@
 <?php
-include('/templates/header.php');
+include('templates/header.php');
 ?>
 
 <div id="bb1" style="min-height: 120vh; width:100%; padding: 100px; background-image: url('SBD/assets/images/bg_index2.png'); background-position: center; background-repeat: no-repeat; background-size: cover;">
@@ -14,5 +14,5 @@ include('/templates/header.php');
 </div>
 
 <?php
-include('/templates/footer.php');
+include('templates/footer.php');
 ?>
