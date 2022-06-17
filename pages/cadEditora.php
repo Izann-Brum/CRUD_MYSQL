@@ -1,8 +1,8 @@
 <?php
 echo(' 1.0 ');
-include 'database/models.php';
+include '/database/models.php';
 echo(' 2.0 ');
-include_once 'database/database.ini.php';
+include_once '/database/database.ini.php';
 
 use ConexaoPHPPostgres\EditoraModel as EditoraModel;
 try {
