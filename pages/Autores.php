@@ -4,14 +4,15 @@ include '/database/models.php';
 echo('0,5. ');
 include_once '/database/database.ini.php';
 
-use ConexaoPHPPostgres\LivroModel as AutorModel;
+use ConexaoPHPPostgres\AutorModel as AutorModel;
 try {
     echo('1. ');
     $AutorModel = new AutorModel($pdo);
     echo('2. ');
+     $Autores2 = $AutorModel->all();
     $Autores = $AutorModel->autorWithTitle();
     echo('3. ');
-    $Autores2 = $AutorModel->all();
+   
 
 } catch (\PDOException $e) {
     echo $e->getMessage();
