@@ -21,7 +21,7 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-         <a class="dropdown-item" href="pages/CadastroAutor.php">Cadastrar Autor </a>
+         <a class="dropdown-item" href="pages/CadAutor.php">Cadastrar Autor </a>
         </div>
       </li>
     </ul> <!-- FIM -->
@@ -33,7 +33,7 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-         <a class="dropdown-item" href="pages/CadastroEditora.php">Cadastrar Editora </a>
+         <a class="dropdown-item" href="pages/cadEditora.php">Cadastrar Editora </a>
          <a class="dropdown-item" href="pages/editorasCadastradas.php">Editoras Cadastradas </a>
         </div>
       </li>
@@ -70,7 +70,7 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="pages/CadastroUnidade.php">Cadastrar Unidade </a>
+        <a class="dropdown-item" href="pages/cadUnidade.php">Cadastrar Unidade </a>
         <a class="dropdown-item" href="pages/unidadesCadastradas.php">Unidades Cadastradas</a>
         </div>
       </li>
@@ -82,7 +82,7 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-         <a class="dropdown-item" href="pages/CadastroUsuario.php">Cadastrar Usuario </a>
+         <a class="dropdown-item" href="pages/cadUsuario.php">Cadastrar Usuario </a>
         <a class="dropdown-item" href="pages/usuariosCadastrados.php">Usuarios Cadastrados </a>
         </div>
       </li>
