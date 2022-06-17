@@ -10,8 +10,7 @@ class Connection {
         // // Le os parametros do banco do dados -> database.ini
         // $params = parse_ini_file('database.ini');
         // if ($params === false) {
-        //     throw new \Exception("Error reading database configuration file");
-            
+        //     throw new \Exception("Error reading database configuration file");   
         // }
         // // Conecta ao postgres
         //  $conStr = sprintf("pgsql:host=%s;dbname=%s;user=%s;password=%s", 
@@ -19,9 +18,8 @@ class Connection {
         //         $params['database'], 
         //         $params['user'], 
         //         $params['password']);
-                
     
-        $servername = "mysql://bc1acac5643b4f:ab603c47@us-cdbr-east-05.cleardb.net/heroku_9ef729a7f1a0fc6?reconnect=true";
+        $servername = "us-cdbr-east-05.cleardb.net";
         $database = "heroku_9ef729a7f1a0fc6";
         $username = "bc1acac5643b4f";
         $password = "ab603c47";
