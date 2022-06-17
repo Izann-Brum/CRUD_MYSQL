@@ -21,10 +21,10 @@ class Connection {
         //         $params['password']);
                 
     
-        $servername = "";
-        $database = "";
-        $username = "";
-        $password = "";
+        $servername = "mysql://bc1acac5643b4f:ab603c47@us-cdbr-east-05.cleardb.net/heroku_9ef729a7f1a0fc6?reconnect=true";
+        $database = "heroku_9ef729a7f1a0fc6";
+        $username = "bc1acac5643b4f";
+        $password = "ab603c47";
 
         // Create connection
         $pdo = mysqli_connect($servername, $username, $password, $database);
