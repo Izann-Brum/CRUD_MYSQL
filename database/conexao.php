@@ -21,14 +21,10 @@ class Connection {
         //         $params['password']);
                 
     
-        $servername = "localhost";
-        $database = "id19084403_bancosbd777";
-        $username = "id19084403_adm";
-        $password = "SQt3)Lf>{C^!W\#X";
-
-        // Access Credentials Heroku
-        // Username:	bc1acac5643b4f
-        // Password:	ab603c47
+        $servername = "";
+        $database = "";
+        $username = "";
+        $password = "";
 
         // Create connection
         $pdo = mysqli_connect($servername, $username, $password, $database);
