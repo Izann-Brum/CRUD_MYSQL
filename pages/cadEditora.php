@@ -1,11 +1,16 @@
 <?php
+echo(' 1.0 ');
 include '../database/models.php';
+echo(' 2.0 ');
 include_once '../database/database.ini.php';
 
 use ConexaoPHPPostgres\EditoraModel as EditoraModel;
 try {
+    echo(' 3.0 ');
     $EditoraModel = new EditoraModel($pdo);
+    echo(' 4.0 ');
     $Editoras = $EditoraModel->all();
+    echo(' 5.0 ');
 
 } catch (\PDOException $e) {
     echo $e->getMessage();
