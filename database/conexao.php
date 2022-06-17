@@ -46,7 +46,7 @@ class Connection {
     public static function get() {
         echo(' g.0 ');
        
-        if (null === static::$conn) {
+        if (null == static::$conn) {
             static::$conn = new static();
            echo(' g.y ');
         }
