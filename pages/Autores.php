@@ -9,7 +9,7 @@ try {
     echo('1. ');
     $AutorModel = new AutorModel($pdo);
     echo('2. ');
-     $Autores2 = $AutorModel->all();
+    $Autores2 = $AutorModel->all();
     $Autores = $AutorModel->autorWithTitle();
     echo('3. ');
    

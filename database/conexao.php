@@ -23,9 +23,10 @@ class Connection {
         $database = "heroku_9ef729a7f1a0fc6";
         $username = "bc1acac5643b4f";
         $password = "ab603c47";
-
+        echo(' a.0 ');
         // Create connection
         $pdo = mysqli_connect($servername, $username, $password, $database);
+        echo(' b.0 ');
         // Check connection
         if (!$pdo) {
             echo('Connection failed');

@@ -1,12 +1,13 @@
 <?php
 
 namespace ConexaoPHPPostgres;
-
+echo(' 2.0 ');
 class AutorModel{
+    
     private $pdo;
 
     public function __construct($pdo){
-        echo(' 1.0 ');
+        echo(' 3.0 ');
         $this->pdo = $pdo;
     }
     
