@@ -9,7 +9,7 @@
 
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #073661;">
-  <a class="navbar-brand" href="../../index.php" style ="font-weight:bold !important; font-size: 32px; font-family: 'Dark', sans-serif"> <img src="/SBD/livro.png" width="32px" height="32px" alt="">&nbsp; S.B.D.</a>
+  <a class="navbar-brand" href="../index.php" style ="font-weight:bold !important; font-size: 32px; font-family: 'Dark', sans-serif"> <img src="livro.png" width="32px" height="32px" alt="">&nbsp; S.B.D.</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -21,7 +21,7 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/SBD/pages/CadastroAutor.php">Cadastrar Autor </a>
+         <a class="dropdown-item" href="pages/CadastroAutor.php">Cadastrar Autor </a>
         </div>
       </li>
     </ul> <!-- FIM -->
@@ -33,8 +33,8 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-         <a class="dropdown-item" href="/SBD/pages/CadastroEditora.php">Cadastrar Editora </a>
-         <a class="dropdown-item" href="/SBD/pages/editorasCadastradas.php">Editoras Cadastradas </a>
+         <a class="dropdown-item" href="pages/CadastroEditora.php">Cadastrar Editora </a>
+         <a class="dropdown-item" href="pages/editorasCadastradas.php">Editoras Cadastradas </a>
         </div>
       </li>
     </ul>  <!-- FIM -->
@@ -45,8 +45,8 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="/SBD/pages/novoEmprestimo.php">Novo Empréstimo </a>
-        <a class="dropdown-item" href="/SBD/pages/emprestimosPendentes.php">Empréstimos Pendentes </a>
+        <a class="dropdown-item" href="pages/novoEmprestimo.php">Novo Empréstimo </a>
+        <a class="dropdown-item" href="pages/emprestimosPendentes.php">Empréstimos Pendentes </a>
         </div>
       </li>
     </ul>  <!-- FIM -->
@@ -57,9 +57,9 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="/SBD/pages/CadastroLivro.php">Cadastrar Livro </a>
-        <a class="dropdown-item" href="/SBD/pages/livrosCadastrados.php">Livros Cadastrados </a>
-        <a class="dropdown-item" href="/SBD/pages/copiasLivro.php">Registrar Cópias </a>
+        <a class="dropdown-item" href="pages/CadastroLivro.php">Cadastrar Livro </a>
+        <a class="dropdown-item" href="pages/livrosCadastrados.php">Livros Cadastrados </a>
+        <a class="dropdown-item" href="pages/copiasLivro.php">Registrar Cópias </a>
         </div>
       </li>
     </ul>  <!-- FIM -->
@@ -70,8 +70,8 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="/SBD/pages/CadastroUnidade.php">Cadastrar Unidade </a>
-        <a class="dropdown-item" href="/SBD/pages/unidadesCadastradas.php">Unidades Cadastradas</a>
+        <a class="dropdown-item" href="pages/CadastroUnidade.php">Cadastrar Unidade </a>
+        <a class="dropdown-item" href="pages/unidadesCadastradas.php">Unidades Cadastradas</a>
         </div>
       </li>
     </ul>  <!-- FIM -->
@@ -82,8 +82,8 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-         <a class="dropdown-item" href="/SBD/pages/CadastroUsuario.php">Cadastrar Usuario </a>
-        <a class="dropdown-item" href="/SBD/pages/usuariosCadastrados.php">Usuarios Cadastrados </a>
+         <a class="dropdown-item" href="pages/CadastroUsuario.php">Cadastrar Usuario </a>
+        <a class="dropdown-item" href="pages/usuariosCadastrados.php">Usuarios Cadastrados </a>
         </div>
       </li>
     </ul>  <!-- FIM -->
@@ -94,8 +94,8 @@
         </a>
         
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-         <a class="dropdown-item" href="/SBD/page_about_proj\Página-Inicial.php">Sobre o Projeto </a>
-         <a class="dropdown-item" href="/SBD/page_JP/Página-Inicial.php">Sobre os Desenvolvedores </a>
+         <a class="dropdown-item" href="page_about_proj\Página-Inicial.php">Sobre o Projeto </a>
+         <a class="dropdown-item" href="page_JP/Página-Inicial.php">Sobre os Desenvolvedores </a>
         </div>
       </li>
     </ul>  <!-- FIM -->
