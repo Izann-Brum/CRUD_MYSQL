@@ -6,6 +6,7 @@ class AutorModel{
     private $pdo;
 
     public function __construct($pdo){
+        echo(' 1.0 ');
         $this->pdo = $pdo;
     }
     
