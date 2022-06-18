@@ -1,7 +1,7 @@
 <?php
 
 namespace ConexaoPHPPostgres;
-
+echo(' 0 . ');
 class EditoraModel{
     private $pdo;
 
