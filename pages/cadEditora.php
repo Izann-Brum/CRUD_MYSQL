@@ -6,7 +6,7 @@ include_once '/database/database.ini.php';
 
 use ConexaoPHPPostgres\EditoraModel as EditoraModel;
 try {
-    echo(' 3.0 ');
+    echo(' 3..0 ');
     $EditoraModel = new EditoraModel($pdo);
     echo(' 4.0 ');
     $Editoras = $EditoraModel->all();
