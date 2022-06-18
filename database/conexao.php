@@ -22,8 +22,8 @@ class Connection {
     
         $servername = "us-cdbr-east-05.cleardb.net";
         $database = "heroku_9ef729a7f1a0fc6";
-        $username = "bc1acac5643b4f";
-        $password = "ab603c47";
+        $username = "bc721df62a39bf";
+        $password = "bd4ca0ae";
         echo(' a.0 ');
         // Create connection
         $pdo = mysqli_connect($servername, $username, $password, $database);
