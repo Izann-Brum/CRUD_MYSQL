@@ -6,7 +6,9 @@ include_once '/database/database.ini.php';
 
 use ConexaoPHPPostgres\EditoraModel as EditoraModel;
 try {
+    echo("aa ");
     $EditoraModel = new EditoraModel($pdo);
+    echo("     bb       ");
     $Editoras = $EditoraModel->all();
 
 } catch (\PDOException $e) {
