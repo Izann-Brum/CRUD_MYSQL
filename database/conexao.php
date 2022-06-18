@@ -20,7 +20,7 @@ class Connection {
         }else{
             //  echo " Connected successfully ";
             echo('pdo:');
-            echo($pdo);
+            echo $pdo;
             return $pdo;
         }
         
