@@ -1,11 +1,13 @@
 <?php
-include '../../database/models.php';
-include_once '../../database/database.ini.php';
+include '/database/models.php';
+include_once '/database/database.ini.php';
 
 use ConexaoPHPPostgres\EditoraModel as EditoraModel;
 
 try {
+	echo(' 1 . ');
     $EditoraModel = new EditoraModel($pdo);
+	echo(' 2 . ');
 } catch (\PDOException $e) {
     echo $e->getMessage();
 }
