@@ -6,7 +6,7 @@ use ConexaoPHPPostgres\EditoraModel as EditoraModel;
 
 try {
 	echo(' 1a . ');
-    $EditoraModel = new EditoraModel($pdo);
+    $EditoraModel = EditoraModel::get()->conect();
 	echo(' 2 . ');
 } catch (\PDOException $e) {
     echo $e->getMessage();
