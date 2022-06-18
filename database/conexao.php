@@ -10,7 +10,7 @@ class Connection {
 
     
         $servername = "us-cdbr-east-05.cleardb.net";
-        $database = "heroku";
+        $database = "heroku_4665f34856c16d8";
         $username = "bc721df62a39bf";
         $password = "bd4ca0ae";
         echo(' b.0 ');
