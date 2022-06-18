@@ -1,6 +1,6 @@
 <?php
 namespace ConexaoPHPPostgres;
-
+echo(' ConexaoPHPPostgres ');
 //Classe que realiza a conexao com o banco de dados
 class Connection {
     private static $conn;
