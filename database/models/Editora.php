@@ -6,7 +6,6 @@ class EditoraModel{
     private $pdo;
 
     public function __construct($pdo){
-        echo(' 00.0 ');
         $this->pdo = $pdo;
     }
 
