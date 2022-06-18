@@ -7,6 +7,8 @@
 -- Versão do servidor: 10.5.12-MariaDB
 -- versão do PHP: 7.3.32
 
+-- `heroku_4665f34856c16d8`
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
@@ -43,7 +45,7 @@ CREATE TABLE `EDITORA` (
 --
 
 INSERT INTO `EDITORA` (`Cod_editora`, `Nome`, `Endereco`, `Telefone`) VALUES
-(1, 'Editora 01', 'EndereÃ§o xfg', '1234567894');
+(1, 'Editora 01', 'Endereço xfg', '1234567894');
 
 -- --------------------------------------------------------
 
@@ -151,7 +153,7 @@ CREATE TABLE `UNIDADE_BIBLIOTECA` (
 --
 
 INSERT INTO `UNIDADE_BIBLIOTECA` (`Cod_unidade`, `Nome_unidade`, `Endereco`) VALUES
-(1, 'Unidade 1', 'EndereÃ§o alterado');
+(1, 'Unidade 1', 'Endereço alterado');
 
 -- --------------------------------------------------------
 
@@ -270,7 +272,7 @@ ALTER TABLE `USUARIO`
   MODIFY `Num_cartao` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- RestriÃ§Ãµes para despejos de tabelas
+-- RestriçÃµes para despejos de tabelas
 --
 
 --
