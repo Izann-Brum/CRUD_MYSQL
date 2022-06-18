@@ -15,8 +15,7 @@ class Connection {
         $password = "bd4ca0ae";
         echo(' b.0 ');
         // Create connection
-        $pdo = mysqli_connect($servername, $username, $password);
-        mysqli_select_db($database);
+        $pdo = mysqli_connect($servername, $username, $password, $database);
         echo(' c.0 ');
         // Check connection
         if (!$pdo) {
