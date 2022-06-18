@@ -6,6 +6,7 @@ class EditoraModel{
     private $pdo;
 
     public function __construct($pdo){
+        echo(' *public function __construct($pdo)* ');
         $this->pdo = $pdo;
     }
 
