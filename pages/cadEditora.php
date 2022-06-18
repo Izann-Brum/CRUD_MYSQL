@@ -2,7 +2,7 @@
 
 include 'database/models.php';
 include_once 'database/database.ini.php';
-require 'database/conexao.php';
+include 'database/conexao.php';
 
 
 use ConexaoPHPPostgres\EditoraModel as Editora;
