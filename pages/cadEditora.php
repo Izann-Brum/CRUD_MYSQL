@@ -1,8 +1,9 @@
 <?php
 
 include 'database/models.php';
-
 include_once 'database/database.ini.php';
+require 'database/conexao.php';
+
 
 use ConexaoPHPPostgres\EditoraModel as Editora;
 try {
