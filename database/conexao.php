@@ -15,12 +15,11 @@ class Connection {
         $password = "bd4ca0ae";
         echo(' b.0 ');
         // Create connection
-        // $pdo = mysqli_connect($servername, $username, $password) or die ("html>script language='JavaScript'>alert('Unable to connect to database! Please try again later.'),history.go(-1)/script>/html>");
+         $pdo = mysqli_connect($servername, $username, $password);
         // mysqli_select_db($database);
         echo(' c.0 ');
         // Check connection
         if (!$pdo) {
-            echo('Connection failed');
             die("Connection failed: " . mysqli_connect_error());
         }else{
             echo " Connected successfully ";
