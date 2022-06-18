@@ -2,14 +2,12 @@
 
 include 'database/models.php';
 include_once 'database/database.ini.php';
-echo(' 1 ');
-include 'database/conexao.php';
 
 
 use ConexaoPHPPostgres\EditoraModel as Editora;
 try {
     echo("aa ");
-    $EditoraModel = Connection::get()->connect();
+    $EditoraModel = new Editora($pdo);
     echo("     bb       ");
     $Editoras = $EditoraModel->all();
 

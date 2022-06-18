@@ -19,28 +19,9 @@ class Connection {
             die("Connection failed: " . mysqli_connect_error());
         }else{
             echo " Connected successfully ";
-            $query = "SELECT * FROM heroku_4665f34856c16d8.editora;";
-            echo('  select editora . ');
-	
-	        $result = $pdo->query($query);
-            echo(' . result . ');
-            // 
-
-            if ($result->num_rows > 0) {
-                while($row = $result->fetch_assoc()) {
-                        echo $row['Cod_editora'];
-                        echo $row['Nome'];
-                        echo $row['Endereco'];
-                        echo $row['Telefone'];
-                   
-                }
-            }
-            
-            
-            return $pdo;
         }
         
-        
+        return $pdo;
     }
 
     /**
