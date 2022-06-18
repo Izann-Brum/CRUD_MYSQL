@@ -18,7 +18,7 @@ class Connection {
         if (!$pdo) {
             die("Connection failed: " . mysqli_connect_error());
         }else{
-            //  echo " Connected successfully ";
+            echo " Connected successfully ";
             $query = "SELECT * FROM heroku_4665f34856c16d8.editora;";
 	
 	        $result = mysqli_query($query);
