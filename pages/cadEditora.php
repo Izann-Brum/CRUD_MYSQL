@@ -4,10 +4,10 @@ include '/database/models.php';
 
 include_once '/database/database.ini.php';
 
-use ConexaoPHPPostgres\EditoraModel as EditoraModel;
+use ConexaoPHPPostgres\EditoraModel as Editora;
 try {
     echo("aa ");
-    $EditoraModel = new EditoraModel($pdo);
+    $EditoraModel = new Editora($pdo);
     echo("     bb       ");
     $Editoras = $EditoraModel->all();
 
