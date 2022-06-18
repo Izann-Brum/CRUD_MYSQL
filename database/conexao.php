@@ -22,9 +22,9 @@ class Connection {
             $query = "SELECT * FROM heroku_4665f34856c16d8.editora;";
             echo('  select editora . ');
 	
-	        $result = mysqli_query($query);
+	        $result = $pdo->query($query);
             echo(' . result . ');
-            // $result = $this->pdo->query($query);
+            // 
 
             if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
