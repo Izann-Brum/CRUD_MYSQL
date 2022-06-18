@@ -1,6 +1,6 @@
 <?php
 namespace ConexaoPHPPostgres;
-echo('siiiiiiiiiii');
+print("sin \n a");
 //Classe que realiza a conexao com o banco de dados
 class Connection {
     private static $conn;
