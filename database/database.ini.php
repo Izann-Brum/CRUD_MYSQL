@@ -1,7 +1,7 @@
 <?php
-echo(' data ');
+echo(' data /n/ ');
 require 'conexao.php';
-echo(' database ');
+echo(' database /n/');
 use ConexaoPHPPostgres\Connection as Connection;
-echo(' database.ini ');
+echo(' database.ini  /n/');
 $pdo = Connection::get()->connect();
