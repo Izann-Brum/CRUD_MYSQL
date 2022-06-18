@@ -20,8 +20,12 @@ class Connection {
         }else{
             echo " Connected successfully ";
             $query = "SELECT * FROM heroku_4665f34856c16d8.editora;";
+            echo('  select editora . ');
 	
 	        $result = mysqli_query($query);
+            echo(' . result . ');
+            // $result = $this->pdo->query($query);
+
             if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
                         echo $row['Cod_editora'];
