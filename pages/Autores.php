@@ -6,12 +6,12 @@ include_once '/database/database.ini.php';
 
 use ConexaoPHPPostgres\AutorModel as AutorModel;
 try {
-    echo('1. ');
-    $AutorModel = new AutorModel($pdo);
-    echo('2. ');
-    $Autores2 = $AutorModel->all();
-    $Autores = $AutorModel->autorWithTitle();
-    echo('3. ');
+    // echo('1. ');
+    // $AutorModel = new AutorModel($pdo);
+    // echo('2. ');
+    // $Autores2 = $AutorModel->all();
+    // $Autores = $AutorModel->autorWithTitle();
+    // echo('3. ');
    
 
 } catch (\PDOException $e) {
